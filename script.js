@@ -22,3 +22,24 @@
 Проверить, чтобы все работало без ошибок в консоли */
 
 'use strict';
+
+const numberOfFilms = +prompt('Сколько фильмов вы уже посмотрели?');
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {
+
+    },
+    actors: {
+
+    },
+    genres: [],
+    privat: false
+}
+
+const firstQuestion = prompt('Один из последних просмотренних фильмов?');
+const secondQuestion = prompt('оцени');
+
+personalMovieDB.movies = movies.firstQuestion = secondQuestion;
+
+console.log(personalMovieDB);
